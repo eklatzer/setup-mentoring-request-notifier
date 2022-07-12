@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+.idea/
+
+# Binaries
+bin/
+setup-mentoring-request-notifier
+*.exe
+
+# Config
+config.json
+
+# README
+README.md
+
+# Git
+.git/
+
+# Testcoverage
+cover.out
+
