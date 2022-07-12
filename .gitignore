@@ -9,9 +9,6 @@ setup-mentoring-request-notifier
 # Config
 config.json
 
-# README
-README.md
-
 # Git
 .git/
 
