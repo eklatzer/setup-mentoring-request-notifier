@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	"strings"
 	"time"
 
 	"github.com/slack-go/slack"
@@ -56,7 +55,7 @@ var setupSlackCmd = &cobra.Command{
 			}
 
 			slackTrackConfig[trackInfo.Slug] = trackConfig{
-				ThreadTS:  strings.ReplaceAll(threadTS, ".", ""),
+				ThreadTS:  threadTS,
 				ChannelID: trackInfo.ChannelID,
 			}
 			fmt.Printf(">> thread timestamp: %s\n", threadTS)
